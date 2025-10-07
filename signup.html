@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examination Sign-Up Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function handlesubmit(event) {event.preventDefault();
+            alert('registration submitted successfully')  
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <img  src="https://icon2.cleanpng.com/20180529/eto/kisspng-west-african-senior-school-certificate-examination-domestic-energy-performance-certificates-5b0dc33eecc3f6.4371727315276286069698.jpg" alt="WAEC" style="height: 90px;width:auto;">
+            <h1 class="logo">WEST AFRICANS EXAMINATIONS COUNCIL</h1>
+            <ul class="nav-links">
+            <li><a href="index4.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="rules.html">Exam Rules </a></li>
+            <li><a href="signup.html">Sign-Up</a></li>
+
+
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <section class="content">
+        <h2>Examination Registration Form</h2>
+        <form  class="sign-form" onsubmit="handlesubmit">
+          <label for="fullname">FULL-NAME</label> <input type="text" id="fullname" placeholder="Enter Your Full Name"  required>
+
+         <label for="student ID">STUDENT-ID</label>   <input type="text"  id="student-ID" placeholder="Enter Your student-ID" required>
+         <label for="dob">Date Of Birth</label> <input type="date" id="dob"required>
+         <label for="email">EMAIL ADDRESS</label> <input type="email" id="email" placeholder="Enter Your Email Address" required>
+         <label for="phone">PHONE NUMBER</label> <input type="tel"  id="phone" placeholder="Enter Your Phone Number" required>
+         <label for="field of study">Field Of Study</label>
+         <select name="" id="field of study" required>
+         <option value="">Select Field Of Study</option>
+         <option value="science">Science</option>
+         <option value="art">Art</option>
+         <option value="commerce">Commerce</option>
+         </select>
+         <button type="submit" class="btn">Submit Registration
+
+         </button>
+
+
+        </form>
+
+    </section>
+    <footer>
+        <p>&copy; 2025 WEST AFRICAN EXAMINATIONS COUNCIL</p>
+    </footer>
+    
+</body>
+</html>
