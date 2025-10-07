@@ -152,3 +152,43 @@ footer{
     color: #fff;
     flex-wrap: wrap;
 }
+.about-section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    line-height: 1.8;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.about-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: green;
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    color: green;
+}
+.about-section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    line-height: 1.8;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.about-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: green;
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    color: green;
+}
